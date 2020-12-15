@@ -1,0 +1,34 @@
+<input class="telefone_or_celular" type="text" name="telefone" placeholder="Telefone*" required="required"/>
+
+<script>
+
+    $(function() { // <- esse codigo serve para executar somente depois que carregou todo o html
+
+        //ele pega a class telefone_or_celular e fala que quando alterar o campo vai executar uma função
+        $('.telefone_or_celular').on('change', function(){
+
+            //aqui e a função executada, tudo oque voce colocar aqui dentro, ele vai executar quando for alterado esse campo
+
+            // var e uma variavel, voce pode dar o nome que quiser.
+            //this = é o objeto selecionado no momento, no caso é o telefone_or_celular
+            var meuValor = $(this).val()
+            // aqui damos um nome a variavel, que esta pegando o.val() que é o value do campo input
+
+            //condicao para saber se celular ou telefone
+            //a funcao length() é para contar os caracteres
+
+
+            if ( meuValor.length() == 10 ){
+                //executa para quando for celular
+            } else {
+                //executa para quando for telefone
+            }
+
+
+        })
+
+    }) // <- aqui ele fecha o script que iniciamos na lina 5
+
+
+
+</script>

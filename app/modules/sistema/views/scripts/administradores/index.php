@@ -1,0 +1,30 @@
+<?php include_once dirname(__FILE__).'/../layout/header.php';?>
+<?php include_once dirname(__FILE__).'/../layout/section.php';?>
+	
+	<div id="central">
+		
+		<table class="table-edicao">
+			<tr class="cor_b">
+				<th width="90">Edição</th>
+				<th width="90">Status</th>
+				<th><i class="fa fa-user"></i> User</th>
+				<th width="120"><i class="fa fa-calendar"></i> Data de criação</th>
+			</tr>
+					
+			<?php foreach($this->result as $row){?>
+			<tr class="ativo_<?php echo $row->nivel;?>">
+				<td>
+					<a href="/<?php echo $this->baseModule;?>/<?php echo $this->baseController;?>/editar/id/<?php echo $row->id_usuario; ?>"><i class="pe-7s-pen" ></i> EDITAR</a>
+				</td>
+				<td><?php echo $row->ativo == 0 ? 'Inativo' : 'Ativo'; ?></td>
+				<td><?php echo $row->login; ?></td>
+				<td><i class="fa fa-calendar"></i> <?php echo date('d/m/Y', strtotime($row->criado)); ?></td>
+			</tr>
+			<?php } ?>
+		</table>
+		
+		<a href="/<?php echo $this->baseModule;?>/<?php echo $this->baseController; ?>/cadastrar" class="new-bt cor_c_hover">Adicionar novo</a>
+		
+	</div>
+
+<?php include_once dirname(__FILE__).'/../layout/footer.php'; ?>

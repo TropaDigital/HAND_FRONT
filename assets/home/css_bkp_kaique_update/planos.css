@@ -1,0 +1,112 @@
+.contatos_novo table {
+	margin:20px 0px !important;
+	box-shadow:none;
+}
+.contatos_novo th {
+	font-size:14px !important;
+	color:#333 !important;
+	font-weight:normal !important;
+	border:none !important;
+	background:none !important;
+	padding:0px 20px 16px 20px !important;
+}
+.contatos_novo td {
+	font-size:20px !important;
+	color:#111 !important;
+	border:none !important;
+	background:none !important;
+	font-weight:bold;
+	padding:0px 20px !important;
+}
+.contatos_novo td i {
+	font-size:15px !important;
+}
+.contatos_novo td span {
+	font-size:13px;
+	font-weight:normal;
+}
+.contatos_novo th.left, td.left {
+	border-left:1px solid rgba(0,0,0,0.1) !important;
+}
+.contatos_novo .fa-check-square-o {
+	color:#2798d8;
+}
+
+.planos {
+	width:100%;
+	float:left;
+	text-align:center;
+}
+.planos hr {
+	border-left:none;
+	border-right:none;
+	border-top:none;
+	border-bottom:1px solid #FFF;
+	margin-bottom:-9px;
+}
+.planos h2 {
+	display:inline-block;
+	text-align:center;
+	margin-top:-10px;
+	font-size:18px;
+	color:#2798d8;
+	font-weight:bold;
+	background:#EAEAEA;
+	position:relative;
+	z-index:5;
+	padding:0px 10px;
+}
+.planos .m_t_a.ativo .tipo {
+	color:#2798d8;
+	font-weight:bold;
+}
+.planos .m_t_a {
+	padding:5px 30px;
+	display:inline-block;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+}
+.planos .m_t_a:hover {
+	background-image: linear-gradient(to bottom, #FFF, rgba(255,255,255,0.5));
+	text-shadow:0px 1px #FFF;
+	border-radius:5px;
+	padding:5px 40px;
+	-webkit-box-shadow: 0px 19px 72px 0px rgba(0,0,0,0.16);
+	-moz-box-shadow: 0px 19px 72px 0px rgba(0,0,0,0.16);
+	box-shadow: 0px 19px 72px 0px rgba(0,0,0,0.16);
+}
+.planos .m_t_a .tipo {
+	font-size:16px;
+	color:#555;
+	padding-top:10px;
+}
+.planos .m_t_a .desconto {
+	font-size:15px;
+	color:#2798d8;
+	border:1px solid rgba(0,0,0,0.1);
+	margin:10px 0px;
+	display:inline-block;
+	padding:5px 8px;
+	font-weight:bold;
+}
+.bt_contrata {
+	float: right;
+    margin: -24px;
+    background: #64BE59;
+    border: none;
+    font-size: 12px;
+    padding: 9px 10px;
+    margin-right: 8px;
+    color: #FFF;
+    border-radius:3px;
+}
+.dados_planos {
+	display:none;
+	width:96%;
+	float:left;
+	background-image: linear-gradient(to top, #FFF, rgba(0,0,0,0.05));
+	padding:2%;
+	border-radius:0px 0px 5px 5px;
+}

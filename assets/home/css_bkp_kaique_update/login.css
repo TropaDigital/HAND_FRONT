@@ -1,0 +1,250 @@
+body {
+	background-size:cover;
+}
+
+.box-login {
+	width:380px;
+	background:#5ad2d1;
+	border-radius:2px;
+	position:fixed;
+	left:50%;
+	top:50%;
+	padding-bottom: 20px;
+	margin-left:-190px;
+	margin-top: -165px;
+	text-align:center;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+}
+.box-login.ativo {
+	margin-left:-400px;
+}
+.box-login h2 {
+	color:#FFF;
+}
+.box-login > .logo {
+	margin:28px 0px;
+}
+.box-login input[type="text"],
+.box-login input[type="password"] {
+	width:324px;
+	height:44px;
+	border:none;
+	color: rgba(255,255,255,0.8);
+	margin:0px 0px 15px 0px;
+	border-radius:5px;
+	background: rgba(0,0,0,0.2);
+	outline:none;
+	font-size:12px;
+	padding:0px 10px;
+}
+.box-login input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #FFF;
+}
+.box-login input::-moz-placeholder { /* Firefox 19+ */
+  color: #FFF;
+}
+.box-login input:-ms-input-placeholder { /* IE 10+ */
+  color: #FFF;
+}
+.box-login input:-moz-placeholder { /* Firefox 18- */
+  color: #FFF;
+}
+.box-login button[type="submit"] {
+	background: rgba(0,0,0,0.5);
+	border:none;
+	width:123px;
+	margin-right: 18px;
+	height:43px;
+	font-size:12px;
+	color:#FFF;
+	letter-spacing: 1px;
+	font-weight:bold;
+	border-radius:4px;
+	outline:none;
+	float:right;
+}
+.box-login button[type="submit"]:hover {
+	background:rgba(0,0,0,0.6)
+}
+.box-login label {
+	width: inherit;
+	float:left;
+	font-size:13px;
+}
+
+a.esqueci-senha {
+    background: #FFF;
+    position: absolute;
+    color: #2e88a2;
+    bottom:-32px;
+    right: 20px;
+    display: block;
+    padding:10px 15px;
+    text-decoration:none;
+    border-radius:100px;
+    font-size:12px;
+    -webkit-box-shadow: 0px 20px 42px 0px rgba(0,0,0,0.17);
+    -moz-box-shadow: 0px 20px 42px 0px rgba(0,0,0,0.17);
+    box-shadow: 0px 20px 42px 0px rgba(0,0,0,0.17);
+}
+a.esqueci-senha:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 0;
+    height: 0;
+    right: 25px;
+    position:absolute;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #FFF;
+    margin-top:-18px;
+}
+.esqueci-senha-box {
+	display:block;
+	width:380px;
+	height:330px;
+	background:#5ad2d1;
+	border-radius:2px;
+	position:fixed;
+	left:50%;
+	top:50%;
+	margin-left:90px;
+	margin-top: -165px;
+	text-align:center;
+}
+.div-esqueci {
+	opacity:0;
+	visibility: hidden;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+}
+.div-esqueci.ativo {
+	opacity:1;
+	visibility: visible;
+}
+.div-esqueci.ativo form.box-login.box-esqueci {
+	margin-left:0px;
+}
+form.box-login.box-esqueci {
+    height: 248px;
+    -webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+}
+
+i.fa.fa-times {
+    background: #FFF;
+    border-radius: 100px;
+    padding: 8px 10px;
+    position: absolute;
+    right: -20px;
+    top: -17px;
+    cursor: pointer;
+    color: #59d1d0;
+    border: 4px solid #59d1d0;
+}
+.aviao-logo {
+	width: 246px;
+	height: 150px;
+	position:fixed;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+	left:0px;
+	bottom:0px;
+	z-index:9999;
+	opacity:0;
+	margin-left: -309px;
+	margin-bottom: 63px;
+	left: 49%;
+	bottom:50%;
+	-webkit-transition: all 2s ease;
+	-moz-transition: all 2s ease;
+	-o-transition: all 2s ease;
+	-ms-transition: all 2s ease;
+}
+.aviao-logo.ativo {
+	opacity:1;
+}
+.aviao-logo.ativo.on {
+	margin-left:-520px;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+}
+#message {
+	position:fixed;
+	bottom: 10px;
+	right:10px;
+	background:rgba(0,0,0,0.7);
+	border-radius:4px;
+	color:rgba(255,255,255,0.9);
+	padding:18px;
+	font-size:12px;
+	z-index: 9;
+}
+#message i {
+	font-size:25px;
+	display:inline-block;
+	vertical-align:middle;
+	margin-right:5px;
+	margin-bottom:2px;
+}
+body > .mytoken {
+	width: 300px;
+	position:fixed;
+	left:50%;
+	top:50%;
+	margin-left: -150px;
+	margin-top: -150px;
+	box-sizing: border-box;
+	padding: 20px;
+	border-radius: 3px;
+	background: #EAEAEA;
+	border: 3px solid #FFF;
+	text-align: center;
+	box-shadow: 0px 20px 20px 0px rgba(0,0,0,0.1);
+}
+body > .mytoken > input[type="text"] {
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    border-radius: 100px;
+    outline: none;
+    font-size: 13px;
+}
+body > .mytoken > input[type="submit"] {
+    margin-top: 15px;
+    border-radius: 4px;
+    background: red;
+    color: #FFF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 13px;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
+}
+.erro_login {
+    width: 90%;
+    position: absolute;
+    bottom: 0px;
+    background: #FFF;
+    box-sizing: border-box;
+    padding: 10px;
+    left: 5%;
+    bottom: -22px;
+    font-size: 11px;
+    border-radius: 3px;
+	display:none;
+}

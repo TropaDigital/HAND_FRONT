@@ -1,0 +1,144 @@
+.contatos_novo select {
+	margin-top:10px !important;
+}
+.select2-container {
+	margin-top:0px;
+}
+.editaveis label {
+	float:left;
+	padding: 10px 0px;
+	width: 31.3%;
+	margin: -4px 1%;
+}
+.editaveis label input[type="text"], .editaveis label select {
+	width:100% !important;
+	float:left;
+	height: 34px;
+	box-sizing:border-box;
+	border: 1px solid #e5e5e5;
+	padding: 0px 10px;
+}
+.filtro_campanha {
+	margin-right:20px;
+	padding-top: 9px;
+	float: left;
+	font-size:15px;
+	font-family: 'Roboto', 'Arial';
+	color:#adb5b9;
+	cursor:pointer;
+	border-bottom:3px solid #f8f8f8;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+.filtro_campanha.ativo {
+	color:#2798d8;
+	border-bottom: 3px solid #2798d8;
+	font-weight:bold;
+	padding-bottom: 6px;
+	cursor:auto;
+}
+.filtro_campanha a {
+	color:#adb5b9;
+	text-decoration:none;
+}
+.filtro_campanha.ativo a {
+	color:#2798d8;
+}
+.editaveis p {
+	float:left;
+	margin:0px;
+	width: 100%;
+	font-size:12px;
+	background: rgba(229, 229, 229, 1);
+	border-radius:4px 0px 0px 4px;
+	color:#666;
+	box-sizing: border-box;
+	padding: 10px;
+}
+.editaveis input[type="text"],
+.editaveis input[type="password"] {
+	height:34px;
+	width:300px;
+	border:1px solid rgba(0,0,0,0.1);
+	border-radius:4;
+	padding:0px 10px;
+	color:#666;
+	font-size:13px;
+}
+span.user {
+	text-align:center;
+	width:100%;
+	float:left;
+	padding-top:15px;
+}
+a.ver-contatos {
+    width: 100%;
+    display: inline-block;
+    padding: 10px 0px;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 42px;
+    font-size: 13px;
+    text-decoration: none;
+}
+.contatos_lista h2 {
+    text-align: center;
+    font-size: 25px;
+    margin: 7px 0px;
+}
+
+.contatos_lista span.titulo {
+    width: 96%;
+    display: inline-block;
+    background: rgba(0,0,0,0.03);
+    padding: 9px 2%;
+}
+
+.contatos_lista span.left {
+    float: left;
+    padding: 19px 0px 0px 10px;
+}
+
+.contatos_lista span.right {
+    float: right;
+    padding: 19px 0px 0px 0px;
+    text-align:right;
+    margin-bottom: 20px;
+}
+.contatos_lista table span.left a {
+    color: #666;
+    display: inline-block;
+    padding: 0px 13px 6px 0px;
+    font-size: 14px;
+    text-decoration: none;
+}
+.contatos_lista table span.right a {
+    color: #666;
+    display: inline-block;
+    padding: 0px 0px 6px 15px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.contatos_lista table span a:hover {
+    color: #444;
+    text-decoration: underline;
+}
+
+.box_adc {
+	background:#f8f8f8;
+	margin-bottom:40px;
+}
+.topo-campanhas {
+	width:100%;
+	float:left;
+	padding: 0px 0px 15px;
+	margin-top: -6px;
+}
+.topo-campanhas form {
+	float:right;
+	font-size:12px;
+	color:rgba(0,0,0,0.5);
+}

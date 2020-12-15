@@ -1,0 +1,309 @@
+.box-bg-white {
+	width: 100%;
+	/* padding: 20px; */
+	box-sizing: border-box;
+	float:left;
+	/* background:#FFF; */
+	/* border-radius:5px; */
+	/* border: 1px solid rgba(0,0,0,0.15); */
+	margin-top: 10px;
+}
+.box-bg-white .box {
+	float:left;
+}
+.box-bg-white .box.c-100 {
+	width:98%;
+	margin:0px 1%;
+}
+.box-bg-white .box.c-33 {
+	width: 33.1%;
+	height: 318px;
+	float:left;
+	text-align: center;
+}
+.box-bg-white .box.c-sem {
+	width: auto;
+	float:left;
+	margim:0px 1%;
+}
+.box-bg-white .box.left {
+	border-right: 1px solid rgba(34, 134, 191, 0.32);
+}
+.box-bg-white h1 {
+	color:#64d3ec;
+	font-size: 15px;
+	margin:0px 0px 30px 0px;
+}
+.box-bg-white h1 span {
+	color:#999;
+	font-weight:lighter;
+}
+.box-bg-white h2 {
+	font-weight: bold;
+	font-size: 13px;
+	color: #666;
+	border: none;
+	text-transform:none;
+}
+.box-bg-white h2 span {
+	font-weight:normal;
+}
+div.graph {
+    width: 100%;
+    height: 200px;
+    float: left;
+}
+.limita-graph {
+	width: 95%;
+	float:left;
+	height: 320px;
+	overflow: hidden;
+}
+#graph-status {width: 100%;float: left;}
+.limita-linhas {
+    float: left;
+    overflow: hidden;
+    width: 100%;
+}
+
+.box-total  {
+    text-align:center;
+    margin:1px 0% 8px 1px;
+    width:92%;
+    float: right;
+    padding: 15px 0px;
+    border-bottom:2px solid #FFF;
+    background:rgba(0,0,0,0.02);
+    border-radius:2px;
+    -webkit-box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.1);
+}
+.box-total h3 {
+    font-size:13px;
+    display:inline-block;
+    margin:0px;
+    color:#666;
+}
+.box-total span {
+    display:inline-block;
+    margin-left:5px;
+}
+
+.box-total.caixa {
+    margin-bottom:15px;
+    width: 95.8%;
+}
+.box-total.caixa h3,
+.box-total.caixa span {
+    width:100%;
+}
+.box-total.caixa h3 {
+    font-size:16px;
+    padding-top:8px;
+}
+.box-total.caixa span {
+    font-size:18px;
+    padding-top:15px
+}
+
+table.campanhas {
+    width: 95%;
+    margin: 0px 2.5% 30px;
+}
+table.campanhas th {
+    text-align:left;
+    padding: 14px 15px;
+    background: #2798d8;
+    font-size:13px;
+    color: #FFF;
+}
+table.campanhas td {
+    font-size:12px;
+    color:#666;
+    background: #FFF;
+    padding: 15px;
+}
+
+.center-graph {
+	float:left;
+	width: 90%;
+	color: #666;
+	padding-top: 32%;
+	text-align: center;
+}
+.box-geral {
+    width: 100%;
+    float: left;
+    margin: 20px 0px 10px 0px;
+}
+.box-geral .box {
+	float:left;
+	width:23%;
+	border-radius:4px;
+	position:relative;
+}
+.box-geral .box i.fa-question-circle {
+	position:absolute;
+	right:10px;
+	top:10px;
+}
+.box-geral .box:nth-child(2) {
+	width:23%;
+	margin-left:2.5%;
+}
+.box-geral .box:nth-child(3) {
+	width:23%;
+	margin-left: 2.8%;
+	margin-right: 2.7%;
+}
+.box-geral .box span.total {
+	width:100%;
+	float:left;
+	padding:15px 0px;
+	font-size: 53px;
+	text-align:center;
+	color:#FFF;
+	font-weight:100;
+	background: rgba(0,0,0,0.05);
+}
+.box-geral .box span.name {
+	width:100%;
+	float:left;
+	text-align:center;
+	padding:20px 0px;
+	color:#FFF;
+	text-transform:uppercase;
+	font-size:13px;
+}
+.box-bg-white .notificacao:nth-child(even){
+	background:rgba(0,0,0,0.03);
+}
+.box-bg-white .notificacao:nth-child(odd){
+	background:rgba(0,0,0,0.01);
+}
+.box-bg-white .notificacao {
+    width: 90%;
+    padding: 14px 0px;
+    font-size:12px;
+    text-align: left;
+    margin: 0px 5%;
+    border-radius:3px;
+    display: inline-block;
+}
+.box-bg-white .notificacao span.msg {display: block;padding-left: 15px;}
+.box-bg-white .notificacao span.date {
+	font-size:10px;
+	padding-top: 10px;
+	display: block;
+	padding-left: 15px;
+}
+.filtro-pag form:before {
+	content:'Filter by period';
+	font-weight:700;
+	padding-right:5px;a
+	text-transform:uppercase;
+}
+.filtro-pag .fa-calendar {
+	margin-left:10px;
+	display:inline-block;
+	margin-right:-30px;
+	position: relative;
+}
+.filtro-pag form input[type="text"] {
+	padding-left:30px;
+	width:90px;
+}
+.graph-index {
+	width: 33.3%;
+	height:300px;
+	float: left;
+	text-align:center;
+	box-sizing: border-box;
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 6px;
+	background: #FFF;
+}
+.graph-index .head {
+	width:100%;
+	float:left;
+	box-sizing:border-box;
+	padding:14px 20px;
+}
+.graph-index .title {
+	text-align:left;
+	font-weight:bold;
+	font-size:14px;
+}
+.graph-index .subtitle {
+	text-align:left;
+	font-size:12px;
+}
+.graph-index #graph {
+	width: 250px;
+	display:inline-block;
+	margin-top: -18px;
+}
+.graph-index:nth-child(even) {
+	height: 300px;
+	overflow:hidden;
+}
+.graph-index:nth-child(1) {
+	float:left;
+	width: 24.3%;
+	margin-right:1%;
+}
+.graph-index:nth-child(3) {
+	float:right;
+	width:32.3%;
+}
+
+/* table index */
+table.table-index {
+    width:100%;
+    float:left;
+    text-align:left;
+    border-spacing: 0;
+}
+table.table-index th {
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+table.table-index tr:nth-child(odd) td {
+	background:rgba(234, 234, 234, 0.35);
+}
+table.table-index td {
+    height: 40px;
+    font-size:13px;
+    padding: 10px 20px;
+}
+table.table-index td .text-overflow {
+	width: calc(100% - 160px);
+	float:left;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+.graph-index:nth-child(3) {
+	float:right;
+	width: 40.3%;
+}
+
+/* table index */
+table.table-index {
+    width:100%;
+    float:left;
+    text-align:left;
+    border-spacing: 0;
+}
+table.table-index th {
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+table.table-index tr:nth-child(odd) td {
+	background:rgba(234, 234, 234, 0.35);
+}

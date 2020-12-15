@@ -1,0 +1,119 @@
+div#plans {
+    width: 47%;
+    float: left;
+    margin: 60px 0px;
+    text-align: center;
+}
+.plan {
+    width: 100%;
+    float: left;
+    background: #eaedf2;
+    margin-bottom: 50px;
+}
+.plan .megas {
+    width: 30%;
+    float: left;
+    color: #0072be;
+}
+.plan .megas span.amount-mega {
+    font-size: 52px;
+    font-weight: bold;
+    display: block;
+}
+.plan .megas b.mega {
+    display: block;
+    font-size: 19px;
+    margin-top: -9px;
+}
+.plan span.title-mega {
+    display: block;
+    font-size: 19px;
+    color: #7d7d7d;
+    font-weight: 500;
+    margin-top: 19px;
+    text-transform: uppercase;
+}
+.plan b.description-mega {
+    display: block;
+    font-size: 9px;
+    color: #333333;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 6px;
+}
+.plan .download {
+    width: 35%;
+    float: left;
+}
+.plan .upload {
+    width: 35%;
+    float: left;
+}
+
+.plan .price {
+    width: 50%;
+    float:left;
+    background: #008873;
+}
+.plan .price span.price-first {
+    font-size: 79px;
+    color: #FFF;
+    font-weight: 500;
+    display: inline-block;
+    line-height: 82px;
+    position: relative;
+    margin-left: -30px;
+}
+.plan .price span.price-second {
+    font-size: 26px;
+    font-weight: 600;
+    position:absolute;
+    right: -41px;
+    top: -19px;
+}
+.plan .price span.month {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: absolute;
+    right: -31px;
+    bottom: -23px;
+}
+.plan .sign {
+    width: 50%;
+    float:left;
+    background: #f8f8f8;
+    padding: 23px 35px !IMPORTANT;
+}
+.plan .sign a.sign-in {
+	width:100%;
+	float:left;
+	box-sizing:border-box;
+	background:#0072be;
+	color:#FFF;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+	text-decoration: none;
+	padding: 8px 0px;
+	margin-top: 14px;
+}
+.plan .sign a.check {
+    font-size: 9px;
+    text-transform: uppercase;
+    margin-top: 9px;
+    float: left;
+    width: 100%;
+    color: #333333;
+    font-weight: 600;
+}
+
+.plan .megas,
+.plan .download,
+.plan .upload,
+.plan .price,
+.plan .sign {
+    height:125px;
+    box-sizing: border-box;
+    padding: 23px 15px;
+}

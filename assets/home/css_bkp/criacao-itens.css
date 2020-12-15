@@ -1,0 +1,295 @@
+.cron {
+	box-shadow:none !important;
+}
+form.form-geral {
+	width:98%;
+	margin:1%;
+	float:left;
+	position: relative;
+	text-align: left;
+}
+.form-geral label {
+	margin-bottom:8px;
+}
+.form-geral label[type="time"]:before,
+.form-geral label[type="date"]:before {
+	content:attr(data-placeholder);
+	font-size: 13px;
+	margin-bottom: 6px;
+	font-family:'Roboto', sans-serif;
+	font-weight: bold;
+	color: rgba(0,0,0,0.6);
+	width: 100%;
+	float: left;
+}
+form.form-geral label.texto,
+form.form-geral label.pergunta,
+form.form-geral label.submit {
+	width:100%;
+	float:left;
+	padding: 0px 0px 0px 0px;
+}
+form.form-geral label.submit {
+	padding-bottom:0px !important;
+}
+form.form-geral .form-escala,
+form.form-geral .form-radio,
+form.form-geral .form-checkbox {
+	width:100%;
+	display:inline-block;
+	padding:0px 0px 10px 0px;
+}
+form.form-geral .form-radio p,
+form.form-geral .form-escala p,
+form.form-geral .form-checkbox p {
+	margin: 0px 0px 6px 0px;
+	padding: 0px;
+	font-weight: bold;
+	font-size: 13px;
+	color: rgba(0,0,0,0.6);
+}
+form.form-geral input[type="text"],
+form.form-geral input[type="tel"],
+form.form-geral input[type="number"],
+form.form-geral input[type="email"],
+form.form-geral input[type="date"],
+form.form-geral input[type="time"],
+form.form-geral textarea {
+	width: 100%;
+	padding: 10px;
+	/* box-shadow: inset 0px 0px 0px 1px #ccc; */
+	max-width: 100%;
+	border: 1px solid #CCC;
+	box-sizing: border-box;
+	border-radius: 3px;
+}
+form.form-geral input[type="submit"]{
+	width: 100%;
+	padding: 12px 0px;
+	display: inline-block;
+	border:none;
+	text-transform:uppercase;
+	font-size:13px;
+	border-radius: 3px;
+}
+.texto {
+	text-align:left;
+	width:100%;
+	float:left;
+	position:relative;
+}
+.edit .copy_el {
+	display:none;
+}
+.edit[data-copy="true"] .copy_el {
+	width:100%;
+	text-align:center;
+	float:left;
+	padding:10px 0px;
+	color: #000;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:13px;
+	cursor:pointer;
+	display:block;
+}
+.cron {
+    width: 100%;
+    height: 60px;
+    float: left;
+    overflow: hidden;
+}
+
+.icone {
+    float: left;
+    width: 20%;
+    padding: 10px 0px;
+    font-size: 35px;
+    background:rgba(0,0,0,0.1);
+    color:#FFF;
+}
+
+.relogio {
+    width: 80%;
+    float: left;
+    padding: 22px 0px;
+    font-family: 'Arial';
+    font-size: 14px;
+}
+.slide {
+    width:100%;
+    height: 234px;
+    float:left;
+    overflow: hidden;
+}
+.slide img {
+    width:100%;
+    min-height: 234px;
+}
+.slide .owl-nav {
+    width: 100%;
+    float: left;
+}
+.slide .owl-nav .owl-prev {
+    left:0px;
+}
+.slide .owl-nav .owl-next {
+    right:0px;
+}
+.slide .owl-nav .owl-prev,
+.slide .owl-nav .owl-next {
+	margin-top: 27%;
+    position: absolute;
+    top: 0px;
+	padding: 20px 9px;
+	background:rgba(0,0,0,0.5);
+	color:transparent;
+}
+.slide .owl-nav .owl-prev:after {
+	content:'\f0d9';
+	font:normal normal normal 14px/1 FontAwesome;
+	color:#FFF;
+	position:absolute;
+	width:100%;
+	left:0px;
+	top: 7px;
+	font-size: 46px;
+}
+.slide .owl-nav .owl-next:after {
+	content:'\f0da';
+	font:normal normal normal 14px/1 FontAwesome;
+	color:#FFF;
+	position:absolute;
+	width:100%;
+	left:0px;
+	top: 7px;
+	font-size: 46px;
+}
+
+.oferta {
+    width:100%;
+    float:left;
+}
+.oferta img {
+    width:100%;
+    float: left;
+    min-height: 43px;
+}
+.oferta .valor {
+    max-width: 40%;
+    float: left;
+    margin-top: -43px;
+    text-align: center;
+    margin-left: 6%;
+}
+.oferta .valor span {
+    float:left;
+    padding: 11px 0px;
+    width: 100%;
+}
+.oferta span.de {
+    background: rgba(0,0,0,0.2);
+    font-size: 13px;
+    width: 100%;
+    padding: 14px 0px;
+    text-decoration: line-through;
+}
+.oferta span.por {}
+.oferta span.por b {
+	font-size: 10px;
+	text-align: left;
+	display: inline-block;
+}
+.oferta span.por b:nth-child(2){
+	font-size: 25px;
+	margin-left:7px;
+}
+a.bt,
+.boleto input[type="submit"] {
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    padding: 16px 0px;
+}
+.a-maps {
+	width:100%;
+	height:400px;
+	float: left;
+	margin-bottom: -400px;
+	position: relative;
+}
+.maps {
+	width:100%;
+	height:400px;
+	float: left;
+}
+iframe.video {
+    width: 100%;
+    float: left;
+    height: 180px;
+}
+
+.ico-funcao {
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin:8px 0px;
+}
+.ico-funcao i {
+    font-size: 27px;
+    border:3px solid rgba(0,0,0,0.1);
+    width: 55px;
+    padding: 14px 0px;
+    border-radius:100px;
+}
+.ico-funcao span {
+    width:100%;
+    display:inline-block;
+    padding-top:8px;
+    font-size: 12px;
+}
+.drop-drag {
+    width: 100%;
+    float: left;
+}
+.box {
+    width: 100%;
+    text-align:center;
+    position: relative;
+    float: left;
+}
+.ui-checkboxradio-radio-label.ui-checkboxradio-checked .ui-icon, .ui-checkboxradio-radio-label.ui-checkboxradio-checked:hover .ui-icon {
+    border: 4px solid transparent !important;
+    box-shadow:inset 0px 0px 0px 5px rgba(0,0,0,0.3);
+}
+body.active-overflow {
+    overflow: hidden;
+}
+label.checkbox,
+label.radio {
+	width: 100%;
+	float: left;
+	position: relative;
+}
+label.checkbox input[type="checkbox"],
+label.radio input[type="radio"] {
+	float:left;
+	margin: 0px;
+}
+label.checkbox span,
+label.radio span {
+	float:left;
+	font-size:13px;
+	margin: -1px 0px 0px 4px;
+}
+.box[data-tipo="imagem"] .edit a {
+	width:100%;
+	float:left;
+	font-size: 0px;
+}
+.box[data-tipo="imagem"] img {
+	display: inline-block;
+	font-size: 0;
+	padding: 0px;
+	margin: 0px;
+}

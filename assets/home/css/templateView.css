@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+html, body {
+    background: #FFF;
+    font-family: 'Roboto', sans-serif;
+    padding:0px;
+    margin:0px;
+}
+div#message {
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    box-sizing: border-box;
+    padding: 15px;
+    color: #FFF;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 9999;
+    text-transform: uppercase;
+}
+#landing-page {
+    width:320px;
+    height: calc(100vh - 40px);
+    background:#FFF;
+    float:left;
+    position:fixed;
+    left:50%;
+    margin-left:-160px;
+    position: relative;
+    padding-bottom: 40px;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+.coluna.empty .drop-drag, .fileira.empty .drop-drag{
+    height: 65px;
+    position: relative;
+}
+div[data-variavel-existe=""] {
+    display:none;
+}
+
+.coluna.box[data-fixed="top"],
+.coluna.box[data-fixed="bottom"]{
+    position: relative;
+}
+.coluna.box[data-fixed="top"] {
+    position: fixed !important;
+    max-width: 320px;
+    z-index:9999;
+    top:0px;
+}
+.coluna.box[data-fixed="bottom"] > div {
+    position: fixed !important;
+    max-width: 320px;
+    z-index:9999;
+    bottom:0px;
+}

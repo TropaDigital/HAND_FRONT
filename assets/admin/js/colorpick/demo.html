@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <title>jQuery Colorpicker</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<!-- jQuery/jQueryUI (hosted) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+		<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/ui-lightness/jquery-ui.css" rel="stylesheet" type="text/css"/>
+        <style>
+			body {
+				font-family:	'Segoe UI', Verdana, Arial, Helvetica, sans-serif;
+				font-size:		62.5%;
+			}
+        </style>
+		<script src="jquery.colorpicker.js"></script>
+		<link href="jquery.colorpicker.css" rel="stylesheet" type="text/css"/>
+
+		<script>
+			$(function() {
+				$('#tabs').tabs();
+			});
+		</script>
+    </head>
+    <body>
+		<h1>jQuery ColorPicker - Demo page</h1>
+
+		<div id="tabs">
+			<ul>
+			  <li><a href="#tab-full">All features</a></li>
+			</ul>
+
+			<div id="tab-full">
+				<h2>Fully-featured example</h2>
+				<input type="text" class="cp-full" value="186aa7"/>
+
+				<script>
+					$(function() {
+						$('.cp-full').colorpicker({
+							parts: 'full',
+							showOn: 'both',
+							buttonColorize: true,
+							showNoneButton: true,
+							alpha: true,
+							colorFormat: 'RGBA'
+						});
+					});
+				</script>
+			</div>
+
+			<div id="tab-noanim">
+				<h2>No show animation</h2>
+				<input type="text" class="cp-noanim" value="8e44ad"/>
+
+				<script>
+					$(function() {
+						$('.cp-noanim').colorpicker({
+							showAnim: ''
+						});
+					});
+				</script>
+			</div>
+
+		</div>
+    </body>
+</html>

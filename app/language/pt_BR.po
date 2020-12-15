@@ -1,0 +1,1494 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ZendSkeletonApplication\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-13 13:35-0300\n"
+"PO-Revision-Date: 2018-06-13 13:37-0300\n"
+"Last-Translator: Diogo Melo <dmelo87@gmail.com>\n"
+"Language-Team: ZF Contibutors <zf-devteam@zend.com>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: translate\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../modules/home/views/scripts/banco-dados/campos.php:8
+msgid "Importação de CSV • Selecione as colunas"
+msgstr ""
+
+#: ../modules/home/views/scripts/banco-dados/campos.php:35
+msgid "Selecione um campo"
+msgstr ""
+
+#: ../modules/home/views/scripts/banco-dados/campos.php:45
+msgid "Excluir esse campo"
+msgstr ""
+
+#: ../modules/home/views/scripts/banco-dados/campos.php:55
+#: ../modules/home/views/scripts/templates/criacao.php:253
+#: ../modules/home/views/scripts/usuarios/edit.php:47
+msgid "Voltar"
+msgstr ""
+
+#: ../modules/home/views/scripts/banco-dados/campos.php:56
+msgid "Avançar"
+msgstr ""
+
+#: ../modules/home/views/scripts/banco-dados/campos.php:69
+msgid "Campos excluidos"
+msgstr ""
+
+#: ../modules/home/views/scripts/banco-dados/index.php:8
+msgid "Importação de CSV • Confirmar/editar contatos"
+msgstr ""
+
+#: ../modules/home/views/scripts/banco-dados/index.php:22
+msgid "Lista"
+msgstr ""
+
+#: ../modules/home/views/scripts/banco-dados/index.php:35
+msgid "Separador"
+msgstr ""
+
+#: ../modules/home/views/scripts/banco-dados/index.php:45
+msgid "Arquivo"
+msgstr ""
+
+#: ../modules/home/views/scripts/banco-dados/index.php:45
+msgid "Formato permitido: "
+msgstr ""
+
+#: ../modules/home/views/scripts/banco-dados/index.php:45
+msgid "csv"
+msgstr ""
+
+#: ../modules/home/views/scripts/banco-dados/index.php:47
+msgid "Escolher arquivo"
+msgstr ""
+
+#: ../modules/home/views/scripts/banco-dados/index.php:75
+msgid "Contém cabeçalho?"
+msgstr ""
+
+#: ../modules/home/views/scripts/banco-dados/index.php:78
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:335
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:354
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:521
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:344
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:633
+#: ../modules/home/views/scripts/templates/criacao.php:518
+msgid "Sim"
+msgstr ""
+
+#: ../modules/home/views/scripts/banco-dados/index.php:79
+msgid ""
+"Quando selecionado, a primeira linha é ignorada e é utilizada apenas "
+"referência."
+msgstr ""
+
+#: ../modules/home/views/scripts/banco-dados/index.php:83
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:330
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:359
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:525
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:339
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:605
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:637
+#: ../modules/home/views/scripts/templates/criacao.php:517
+msgid "Não"
+msgstr ""
+
+#: ../modules/home/views/scripts/banco-dados/index.php:84
+msgid ""
+"Quando selecionado, a primeira linha é inserida e é utilizada para "
+"referência."
+msgstr ""
+
+#: ../modules/home/views/scripts/banco-dados/index.php:90
+msgid "Selecione os campos"
+msgstr ""
+
+#: ../modules/home/views/scripts/banco-dados/index.php:96
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:74
+msgid "Referencia"
+msgstr ""
+
+#: ../modules/home/views/scripts/banco-dados/index.php:100
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:79
+#: ../modules/home/views/scripts/contatos/index.php:245
+msgid "Nome"
+msgstr ""
+
+#: ../modules/home/views/scripts/banco-dados/index.php:104
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:84
+msgid "Sobrenome"
+msgstr ""
+
+#: ../modules/home/views/scripts/banco-dados/index.php:108
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:89
+msgid "Data de nascimento"
+msgstr ""
+
+#: ../modules/home/views/scripts/banco-dados/index.php:112
+#: ../modules/home/views/scripts/templates/criacao.php:334
+#: ../modules/home/views/scripts/usuarios/index.php:18
+msgid "E-mail"
+msgstr ""
+
+#: ../modules/home/views/scripts/banco-dados/index.php:116
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:854
+#: ../modules/home/views/scripts/contatos/index.php:244
+#: ../modules/home/views/scripts/relatorios/mo.php:28
+#: ../modules/home/views/scripts/relatorios/mo.php:87
+msgid "Celular"
+msgstr ""
+
+#: ../modules/home/views/scripts/banco-dados/index.php:120
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:99
+msgid "CPF"
+msgstr ""
+
+#: ../modules/home/views/scripts/banco-dados/index.php:124
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:104
+msgid "Empresa"
+msgstr ""
+
+#: ../modules/home/views/scripts/banco-dados/index.php:128
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:109
+msgid "Cargo"
+msgstr ""
+
+#: ../modules/home/views/scripts/banco-dados/index.php:132
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:114
+msgid "Telefone Comercial"
+msgstr ""
+
+#: ../modules/home/views/scripts/banco-dados/index.php:136
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:119
+msgid "Telefone Residencial"
+msgstr ""
+
+#: ../modules/home/views/scripts/banco-dados/index.php:140
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:124
+msgid "Pais"
+msgstr ""
+
+#: ../modules/home/views/scripts/banco-dados/index.php:144
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:129
+msgid "Estado"
+msgstr ""
+
+#: ../modules/home/views/scripts/banco-dados/index.php:148
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:134
+msgid "Cidade"
+msgstr ""
+
+#: ../modules/home/views/scripts/banco-dados/index.php:152
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:139
+msgid "Bairro"
+msgstr ""
+
+#: ../modules/home/views/scripts/banco-dados/index.php:156
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:144
+msgid "Endereço"
+msgstr ""
+
+#: ../modules/home/views/scripts/banco-dados/index.php:160
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:149
+msgid "Cep"
+msgstr ""
+
+#: ../modules/home/views/scripts/banco-dados/index.php:164
+#: ../modules/home/views/scripts/banco-dados/index.php:168
+#: ../modules/home/views/scripts/banco-dados/index.php:172
+#: ../modules/home/views/scripts/banco-dados/index.php:176
+#: ../modules/home/views/scripts/banco-dados/index.php:180
+#: ../modules/home/views/scripts/banco-dados/index.php:184
+#: ../modules/home/views/scripts/banco-dados/index.php:188
+#: ../modules/home/views/scripts/banco-dados/index.php:192
+#: ../modules/home/views/scripts/banco-dados/index.php:196
+#: ../modules/home/views/scripts/banco-dados/index.php:200
+#: ../modules/home/views/scripts/banco-dados/index.php:204
+#: ../modules/home/views/scripts/banco-dados/index.php:208
+#: ../modules/home/views/scripts/banco-dados/index.php:212
+#: ../modules/home/views/scripts/banco-dados/index.php:216
+#: ../modules/home/views/scripts/banco-dados/index.php:220
+#: ../modules/home/views/scripts/banco-dados/index.php:224
+#: ../modules/home/views/scripts/banco-dados/index.php:228
+#: ../modules/home/views/scripts/banco-dados/index.php:232
+#: ../modules/home/views/scripts/banco-dados/index.php:236
+#: ../modules/home/views/scripts/banco-dados/index.php:240
+#: ../modules/home/views/scripts/banco-dados/index.php:244
+#: ../modules/home/views/scripts/banco-dados/index.php:248
+#: ../modules/home/views/scripts/banco-dados/index.php:252
+#: ../modules/home/views/scripts/banco-dados/index.php:256
+#: ../modules/home/views/scripts/banco-dados/index.php:260
+#: ../modules/home/views/scripts/banco-dados/index.php:264
+#: ../modules/home/views/scripts/banco-dados/index.php:268
+#: ../modules/home/views/scripts/banco-dados/index.php:272
+#: ../modules/home/views/scripts/banco-dados/index.php:276
+#: ../modules/home/views/scripts/banco-dados/index.php:280
+#: ../modules/home/views/scripts/banco-dados/index.php:284
+#: ../modules/home/views/scripts/banco-dados/index.php:288
+#: ../modules/home/views/scripts/banco-dados/index.php:292
+#: ../modules/home/views/scripts/banco-dados/index.php:296
+#: ../modules/home/views/scripts/banco-dados/index.php:300
+#: ../modules/home/views/scripts/banco-dados/index.php:304
+#: ../modules/home/views/scripts/banco-dados/index.php:308
+#: ../modules/home/views/scripts/banco-dados/index.php:312
+#: ../modules/home/views/scripts/banco-dados/index.php:316
+#: ../modules/home/views/scripts/banco-dados/index.php:320
+msgid "Campo editavel"
+msgstr ""
+
+#: ../modules/home/views/scripts/banco-dados/index.php:329
+msgid "Concluir"
+msgstr ""
+
+#: ../modules/home/views/scripts/banco-dados/index.php:331
+msgid "ENVIAR"
+msgstr ""
+
+#: ../modules/home/views/scripts/banco-dados/processando.php:9
+msgid "Importação de CSV"
+msgstr ""
+
+#: ../modules/home/views/scripts/banco-dados/processando.php:15
+msgid "Carregando..."
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:11
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:132
+msgid "NOME2"
+msgstr "NOME"
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:11
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:132
+msgid "DA CAMPANHA2"
+msgstr "DA CAMPANHA"
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:12
+msgid "Para iniciar a criação da sua campanha, preencha um nome para ela."
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:20
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:152
+msgid "CUSTOMIZE"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:21
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:248
+msgid "Selecione o modelo de página que sua campanha precisa."
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:25
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:252
+msgid "Selecione um template"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:32
+msgid "Visualizar template "
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:39
+msgid "ESCOLHA O PÚBLICO"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:40
+msgid ""
+"Adicione os contatos para quem deseja enviar, caso haja necessidade você "
+"pode incluir os campos de descrição em cada número."
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:56
+msgid "Campos de descrição"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:65
+msgid "Adicionar contato"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:94
+msgid "Email"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:153
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:157
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:161
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:165
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:169
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:173
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:177
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:181
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:185
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:189
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:193
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:197
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:201
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:205
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:209
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:213
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:217
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:221
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:225
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:229
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:233
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:237
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:241
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:245
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:249
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:253
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:257
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:261
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:265
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:269
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:273
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:277
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:281
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:285
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:289
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:293
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:297
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:301
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:305
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:309
+msgid "Editavel"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:317
+msgid "Confirmar"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:326
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:335
+msgid "Deseja usar o campo referencia?"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:346
+msgid "Configure"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:347
+msgid "Deseja bloquear sua campanha com senha?"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:365
+msgid "Escreva o texto da sua mensagem e pré-visualize ao lado"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:372
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:745
+#: ../modules/home/views/scripts/templates/criacao.php:342
+msgid "SMS"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:379
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:752
+msgid "Mensagem da campanha..."
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:380
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:753
+msgid "Enviado agora"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:391
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:590
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:701
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:764
+msgid "[nome]"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:392
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:591
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:702
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:765
+msgid "[sobrenome]"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:393
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:592
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:703
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:766
+msgid "[numero]"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:394
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:593
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:704
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:767
+msgid "[celular]"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:395
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:594
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:705
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:768
+msgid "[data_nascimento]"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:396
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:595
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:706
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:769
+msgid "[email]"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:397
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:596
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:707
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:770
+msgid "[cpf]"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:398
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:597
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:708
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:771
+msgid "[empresa]"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:399
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:598
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:709
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:772
+msgid "[cargo]"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:400
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:599
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:710
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:773
+msgid "[telefone_comercial]"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:401
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:774
+msgid "[telefone_residencial]"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:402
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:601
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:712
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:775
+msgid "[pais]"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:403
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:602
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:713
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:776
+msgid "[estado]"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:404
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:603
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:714
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:777
+msgid "[cidade]"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:405
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:604
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:715
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:778
+msgid "[bairro]"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:406
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:605
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:716
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:779
+msgid "[endereço]"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:407
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:606
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:717
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:780
+msgid "[cep]"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:409
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:608
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:719
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:782
+msgid "[editavel_"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:415
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:834
+msgid "caracteres restantes"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:417
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:836
+msgid "Mensagem da campanha"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:419
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:840
+msgid ""
+"Não colocar esse link na mensagem, o sistema reconhece o link "
+"automaticamente."
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:431
+msgid "Publicação"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:432
+msgid "Selecione um periodo que sua campanha estará ativa"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:439
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:1000
+msgid "Periodo início"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:444
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:461
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:1005
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:1023
+msgid "Horario"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:456
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:1018
+#: ../modules/home/views/scripts/relatorios/mo.php:19
+msgid "Periodo final"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:471
+#, fuzzy
+#| msgid "DA CAMPANHA2"
+msgid "ENVIAR CAMPANHA"
+msgstr "DA CAMPANHA"
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:491
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:615
+msgid "Alterar cor"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:506
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:508
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:625
+msgid "Titulo da senha"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:518
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:631
+msgid "Deseja ter botão cancelar?"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:528
+msgid "Nome do botão"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:530
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:642
+msgid "URL do botão voltar"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:533
+msgid "URL"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:537
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:649
+msgid "Página final"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:540
+msgid "URL do botão"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:547
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:658
+#: ../modules/home/views/scripts/templates/criacao.php:511
+msgid "Cancelar"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:555
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:666
+msgid "Isso é uma uma pré-visualização!"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:561
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:672
+msgid ""
+"Você deseja uma senha fixa ou uma senha que venha através de uma variavel "
+"dos contatos?"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:565
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:676
+msgid "Fixa"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:570
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:681
+msgid "Variavel"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:576
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:687
+msgid "Quantos digitos tem a senha?"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:580
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:691
+msgid "Preencha um titulo para o pedido de senha."
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:584
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:695
+msgid "Digite uma senha"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:589
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:700
+msgid "Escolha uma variavel para ser a senha."
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:600
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:711
+msgid "telefone_residencial]"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:617
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:728
+msgid "CANCELAR"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha-avulso.php:618
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:729
+msgid "SALVAR"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:11
+msgid "Você já possuiu"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:11
+msgid "campanhas ativas."
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:15
+msgid "Desative uma campanha ou faça um upgrade do seu plano."
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:68
+msgid "Contatos"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:74
+msgid "DESATIVAR CAMPANHA"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:172
+msgid "ESCOLHA O"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:172
+msgid "PÚBLICO"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:190
+msgid "CONFIGURE"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:210
+msgid "PUBLIQUE"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:228
+msgid "Para iniciar a criação de sua campanha, preencha o nome da campanha."
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:230
+msgid "Nome da campanha"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:236
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:268
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:353
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:976
+msgid "Próximo passo"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:262
+msgid "Visualizar template"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:266
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:351
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:974
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:1064
+msgid "Passo anterior"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:280
+msgid ""
+"Agora selecione as pessoas ou listas que serão impactados pela campanha."
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:313
+msgid "Selecione uma ou mais listas para serem enviados."
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:319
+msgid "Você esqueceu de criar uma lista ou adicionar algum contato?"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:321
+#: ../modules/home/views/scripts/contatos/index.php:13
+msgid "Adicionar nova lista de contatos"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:323
+#: ../modules/home/views/scripts/contatos/index.php:193
+msgid "Adicionar contato novo"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:325
+msgid "Ver/Editar contatos"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:327
+#: ../modules/home/views/scripts/contatos/index.php:194
+msgid "Importar contatos"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:365
+msgid "Visualize o link provisório e escreva o texto da Mensagem"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:594
+msgid "Deseja bloquear essa campanha por senha?"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:600
+msgid "Sim\t"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:850
+msgid ""
+"Visualize como sua campanha vai chegar aos seus contatos, envie um <b>SMS</"
+"b> exemplar da sua campanha"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:966
+msgid "Enviar mensagem de teste"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:987
+msgid "Selecione quando você irá publicar sua campanha."
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:991
+msgid "Selecione um periodo em que sua campanha vai estar ativa."
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:1037
+msgid "Selecione um método de envio."
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:1039
+msgid "Enviar agora"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:1040
+msgid "Agendar lotes"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:1041
+msgid "Fracionar lotes"
+msgstr ""
+
+#: ../modules/home/views/scripts/campanha/nova-campanha.php:1079
+msgid "Logs de envio"
+msgstr ""
+
+#: ../modules/home/views/scripts/contatos/index.php:9
+#: ../modules/home/views/scripts/contatos/index.php:192
+msgid "Minhas listas"
+msgstr ""
+
+#: ../modules/home/views/scripts/contatos/index.php:29
+msgid "Ver contatos"
+msgstr ""
+
+#: ../modules/home/views/scripts/contatos/index.php:30
+msgid "Visualize os contatos selecionados para esta campanha."
+msgstr ""
+
+#: ../modules/home/views/scripts/contatos/index.php:34
+msgid "Autor da lista"
+msgstr ""
+
+#: ../modules/home/views/scripts/contatos/index.php:48
+msgid "APAGAR LISTA"
+msgstr ""
+
+#: ../modules/home/views/scripts/contatos/index.php:58
+msgid "Importar"
+msgstr ""
+
+#: ../modules/home/views/scripts/contatos/index.php:59
+msgid "Importe listas de contatos em formato CSV."
+msgstr ""
+
+#: ../modules/home/views/scripts/contatos/index.php:64
+msgid "Exportar"
+msgstr ""
+
+#: ../modules/home/views/scripts/contatos/index.php:65
+msgid "Faça dowload da lista selecionada para esta campanha."
+msgstr ""
+
+#: ../modules/home/views/scripts/contatos/index.php:71
+msgid "Enviar Campanha"
+msgstr ""
+
+#: ../modules/home/views/scripts/contatos/index.php:72
+msgid "Envie a campanha para os contato selecionados."
+msgstr ""
+
+#: ../modules/home/views/scripts/contatos/index.php:79
+#: ../modules/home/views/scripts/templates/meus-templates.php:101
+msgid "Editar"
+msgstr ""
+
+#: ../modules/home/views/scripts/contatos/index.php:80
+msgid "Edite a lista de contatos selecionada para a campanha."
+msgstr ""
+
+#: ../modules/home/views/scripts/contatos/index.php:88
+msgid "Adicionar Contato"
+msgstr ""
+
+#: ../modules/home/views/scripts/contatos/index.php:89
+msgid "Adicione contatos individualmente, independente da lista."
+msgstr ""
+
+#: ../modules/home/views/scripts/contatos/index.php:94
+msgid "Editar Contatos"
+msgstr ""
+
+#: ../modules/home/views/scripts/contatos/index.php:95
+msgid "Edite individualmente os contatos da lista selecionada."
+msgstr ""
+
+#: ../modules/home/views/scripts/contatos/index.php:116
+msgid "Celulares duplicados"
+msgstr ""
+
+#: ../modules/home/views/scripts/contatos/index.php:117
+msgid ""
+"Parece que você tem alguns celulares duplicados, precisamos que você decida "
+"oque vai fazer com eles."
+msgstr ""
+
+#: ../modules/home/views/scripts/contatos/index.php:121
+msgid "Quero decidir depois"
+msgstr ""
+
+#: ../modules/home/views/scripts/contatos/index.php:122
+msgid "Como padrão, iremos enviar todos os contatos inclusive os duplicados."
+msgstr ""
+
+#: ../modules/home/views/scripts/contatos/index.php:127
+msgid "Quero mante-los"
+msgstr ""
+
+#: ../modules/home/views/scripts/contatos/index.php:128
+msgid "Iremos manter todos os contatos da lista."
+msgstr ""
+
+#: ../modules/home/views/scripts/contatos/index.php:133
+msgid "Quero excluir todos contatos duplicados"
+msgstr ""
+
+#: ../modules/home/views/scripts/contatos/index.php:134
+msgid ""
+"Iremos excluir apenas os contatos duplicados e deixar sua lista com contatos "
+"unicos."
+msgstr ""
+
+#: ../modules/home/views/scripts/contatos/index.php:147
+msgid "Meus contatos"
+msgstr ""
+
+#: ../modules/home/views/scripts/contatos/index.php:160
+msgid "Buscar por celular"
+msgstr ""
+
+#: ../modules/home/views/scripts/contatos/index.php:169
+#: ../modules/home/views/scripts/templates/criacao.php:358
+msgid "Download"
+msgstr ""
+
+#: ../modules/home/views/scripts/contatos/index.php:171
+#: ../modules/home/views/scripts/relatorios/mo.php:40
+msgid "Download do resultado no formato CSV separado por ponto e virgula."
+msgstr ""
+
+#: ../modules/home/views/scripts/contatos/index.php:205
+#: ../modules/home/views/scripts/relatorios/mo.php:52
+msgid "Resultados por página"
+msgstr ""
+
+#: ../modules/home/views/scripts/contatos/index.php:217
+#: ../modules/home/views/scripts/relatorios/mo.php:64
+msgid "Paginação"
+msgstr ""
+
+#: ../modules/home/views/scripts/contatos/index.php:222
+#: ../modules/home/views/scripts/relatorios/mo.php:69
+msgid "registros encontrados."
+msgstr ""
+
+#: ../modules/home/views/scripts/contatos/index.php:228
+#: ../modules/home/views/scripts/relatorios/mo.php:75
+msgid "registros listados."
+msgstr ""
+
+#: ../modules/home/views/scripts/contatos/index.php:266
+msgid "Não existe nenhum registro para ser mostrado."
+msgstr ""
+
+#: ../modules/home/views/scripts/contatos/index.php:272
+msgid "Apagar selecionados"
+msgstr ""
+
+#: ../modules/home/views/scripts/contatos/index.php:307
+#: ../modules/home/views/scripts/relatorios/mo.php:135
+msgid "Primeira página"
+msgstr ""
+
+#: ../modules/home/views/scripts/contatos/index.php:315
+#: ../modules/home/views/scripts/relatorios/mo.php:143
+msgid "Ultíma página"
+msgstr ""
+
+#: ../modules/home/views/scripts/contatos/index.php:321
+#: ../modules/home/views/scripts/relatorios/mo.php:149
+msgid "Ir para página"
+msgstr ""
+
+#: ../modules/home/views/scripts/index/index.php:101
+msgid "Selecione o intervalo de tempo no qual deseja realizar a sua pesquisa"
+msgstr ""
+
+#: ../modules/home/views/scripts/index/index.php:120
+msgid "Campanhas ativas"
+msgstr ""
+
+#: ../modules/home/views/scripts/index/index.php:121
+msgid ""
+"Campanhas nas quais o link enviado ainda está ativo, ou seja, em "
+"funcionamento"
+msgstr ""
+
+#: ../modules/home/views/scripts/index/index.php:126
+msgid "Campanhas enviadas"
+msgstr ""
+
+#: ../modules/home/views/scripts/index/index.php:127
+msgid "Campanhas que já foram enviadas para os contatos selecionados"
+msgstr ""
+
+#: ../modules/home/views/scripts/index/index.php:132
+#: ../modules/home/views/scripts/layout/menu_index.php:49
+msgid "Créditos utilizados"
+msgstr ""
+
+#: ../modules/home/views/scripts/index/index.php:133
+msgid "Créditos que já foram gastos com envios de campanhas"
+msgstr ""
+
+#: ../modules/home/views/scripts/index/index.php:138
+msgid "Vizualizações"
+msgstr ""
+
+#: ../modules/home/views/scripts/index/index.php:139
+msgid "Links de campanhas abertas"
+msgstr ""
+
+#: ../modules/home/views/scripts/index/index.php:170
+msgid "Campanhas"
+msgstr ""
+
+#: ../modules/home/views/scripts/index/index.php:178
+msgid "Templates"
+msgstr ""
+
+#: ../modules/home/views/scripts/index/index.php:186
+msgid "Caixa de entrada"
+msgstr ""
+
+#: ../modules/home/views/scripts/layout/header.php:213
+msgid "Início2"
+msgstr "INÍCIO"
+
+#: ../modules/home/views/scripts/layout/menu_index.php:36
+#: ../modules/home/views/scripts/layout/menu_topo.php:206
+msgid "Sair"
+msgstr ""
+
+#: ../modules/home/views/scripts/layout/menu_index.php:55
+#: ../modules/home/views/scripts/layout/menu_index.php:57
+msgid "Créditos restantes "
+msgstr ""
+
+#: ../modules/home/views/scripts/layout/menu_topo.php:136
+msgid "Deixe uma mensagem"
+msgstr ""
+
+#: ../modules/home/views/scripts/layout/menu_topo.php:144
+msgid "Seu e-mail"
+msgstr ""
+
+#: ../modules/home/views/scripts/layout/menu_topo.php:149
+msgid "Mensagem"
+msgstr ""
+
+#: ../modules/home/views/scripts/layout/menu_topo.php:154
+msgid "Enviar"
+msgstr ""
+
+#: ../modules/home/views/scripts/layout/menu_topo.php:168
+msgid "DEIXE UMA MENSAGEM"
+msgstr ""
+
+#: ../modules/home/views/scripts/layout/menu_topo.php:169
+msgid "Precisa de ajuda? Clique aqui e entre em contato com o suporte!"
+msgstr ""
+
+#: ../modules/home/views/scripts/layout/menu_topo.php:172
+msgid "Fale conosco"
+msgstr ""
+
+#: ../modules/home/views/scripts/layout/menu_topo.php:174
+msgid "Planos e Faturas"
+msgstr ""
+
+#: ../modules/home/views/scripts/relatorios/mo.php:9
+msgid "Respostas via SMS"
+msgstr ""
+
+#: ../modules/home/views/scripts/relatorios/mo.php:22
+msgid "Todas as campanhas"
+msgstr ""
+
+#: ../modules/home/views/scripts/relatorios/mo.php:88
+msgid "Campanha"
+msgstr ""
+
+#: ../modules/home/views/scripts/relatorios/mo.php:89
+msgid "Mensagem enviada"
+msgstr ""
+
+#: ../modules/home/views/scripts/relatorios/mo.php:90
+msgid "Mensagem recebida"
+msgstr ""
+
+#: ../modules/home/views/scripts/relatorios/mo.php:91
+msgid "Data"
+msgstr ""
+
+#: ../modules/home/views/scripts/relatorios/mo.php:99
+msgid "Nenhum registro encontrado."
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:182
+msgid "imagem"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:183
+msgid "Adicione uma imagem ao conteúdo do template da sua campanha."
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:188
+msgid "formulario"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:189
+msgid "Adicione um formulario personalizado."
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:194
+msgid "texto"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:195
+msgid ""
+"Adicione um texto corrido ao conteúdo do seu template, podendo escolher "
+"entre diversas opções de formatação (cor, fonte, posicionamento etc.)."
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:200
+msgid "contagem"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:201
+msgid ""
+"Adicione uma contagem regressiva ao seu template, selecionando o tempo e o "
+"design desejados."
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:206
+msgid "slide"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:207
+msgid "Adicione um slide de imagens ao template da sua campanha."
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:212
+msgid "oferta"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:213
+msgid ""
+"Adicione uma oferta ao template da sua campanha, selecionando os valores "
+"anterior e atual do produto a ser anunciado."
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:218
+msgid "botão"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:219
+msgid "Adicione um botão clicável ao template da sua campanha."
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:224
+msgid "mapa"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:225
+msgid ""
+"Adicione um mapa ao template da campanha, selecionando o endereço desejado "
+"para aparecer no mesmo."
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:230
+msgid "video"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:231
+msgid ""
+"Adicione um vídeo ao template da sua campanha a partir de um vídeo hospedado "
+"no Youtube."
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:238
+msgid "boleto"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:239
+msgid ""
+"Adicione um boleto ao template da sua campanha a partir de informações dos "
+"contatos."
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:264
+msgid "Adicionar seções"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:270
+msgid ""
+"Acrescente colunas ao template da sua campanha. Elas podem funcionar como "
+"espaçamento ou separação dos outros elementos."
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:272
+msgid "Colunas"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:282
+msgid "Adicionar conteudo"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:302
+msgid "Adicionar funções"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:308
+msgid ""
+"Adicione um botão clicável que direcionará o usuário a uma página do "
+"Facebook determinada por você."
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:310
+msgid "Facebook"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:316
+msgid ""
+"Adicione um botão clicável que direcionará o usuário a uma página do "
+"Instagram determinada por você."
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:318
+msgid "Instagram"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:324
+msgid ""
+"Adicione um botão clicável que direcionará o usuário a realizar uma chamada "
+"para o número determinado por você."
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:326
+msgid "Telefone"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:332
+msgid ""
+"Adicione um botão clicável que direcionará o usuário a escrever um e-mail "
+"para o endereço determinado por você."
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:340
+msgid ""
+"Adicione um botão clicável que direcionará o usuário a escrever um SMS para "
+"o número determinado por você."
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:348
+msgid ""
+"Adicione um botão clicável que direcionará o usuário a escrever uma mensagem "
+"via WhatsApp para o número determinado por você."
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:350
+msgid "Whatsapp"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:356
+msgid ""
+"Adicione um botão clicável que direcionará o usuário para realizar um "
+"download."
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:364
+msgid "Adicione um botão clicável que direcionará o usuário para um vídeo."
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:366
+msgid "Video"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:372
+msgid ""
+"Adicione um botão clicável que direcionará o usuário para um endereço no "
+"Google Maps."
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:374
+msgid "Localização"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:413
+msgid "Página Inicial"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:416
+msgid "Página Final"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:417
+msgid "Todo formulário respondido será levado a essa página."
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:420
+msgid "Ver todas páginas"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:423
+#: ../modules/home/views/scripts/templates/modelos.php:53
+msgid "Pré visualizar"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:424
+#: ../modules/home/views/scripts/templates/criacao.php:512
+msgid "Salvar"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:426
+msgid "Reiniciar Template"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:499
+msgid "Confirme os dados para salvar seu template"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:500
+msgid "Nome do template"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/criacao.php:516
+msgid "Deseja publicar esse template?"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/meus-templates.php:9
+#: ../modules/home/views/scripts/templates/nova-landing.php:9
+msgid "Como você deseja criar seu novo template?"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/meus-templates.php:18
+msgid "MEUS TEMPLATES"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/meus-templates.php:19
+#: ../modules/home/views/scripts/templates/nova-landing.php:20
+msgid "Criar a partir dos meus templates"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/meus-templates.php:22
+#: ../modules/home/views/scripts/templates/meus-templates.php:34
+#: ../modules/home/views/scripts/templates/modelos.php:20
+msgid "Lixeira"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/meus-templates.php:23
+msgid "Templates excluidos"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/meus-templates.php:33
+#: ../modules/home/views/scripts/templates/modelos.php:19
+msgid "Categorias"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/meus-templates.php:38
+msgid "até "
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/meus-templates.php:45
+msgid "Usuarios"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/meus-templates.php:109
+#: ../modules/home/views/scripts/templates/modelos.php:63
+msgid "Excluir"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/meus-templates.php:118
+#: ../modules/home/views/scripts/templates/modelos.php:65
+msgid "Resturar"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/meus-templates.php:125
+msgid "Pré-visualizar"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/meus-templates.php:132
+msgid "Criar campanha"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/meus-templates.php:138
+msgid "Criar a partir deste "
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/modelos.php:8
+msgid "Modelos"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/modelos.php:24
+msgid "até"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/modelos.php:35
+msgid "Este mês"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/modelos.php:40
+msgid "Não existe registros para esse mês, para ver todos"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/modelos.php:40
+msgid "clique aqui"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/modelos.php:54
+msgid "Duplicar"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/modelos.php:57
+msgid "Favoritar"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/modelos.php:59
+msgid "Desfavoritar"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/modelos.php:72
+msgid "Atualização:"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/modelos.php:74
+msgid "Criado:"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/nova-landing.php:12
+msgid "Meus templates"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/nova-landing.php:13
+msgid "Acesse seus templates salvos"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/nova-landing.php:19
+msgid "Meus Templates"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/nova-landing.php:21
+#: ../modules/home/views/scripts/templates/nova-landing.php:36
+msgid "Acessar"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/nova-landing.php:26
+msgid "Templates por categoria"
+msgstr ""
+
+#: ../modules/home/views/scripts/templates/nova-landing.php:27
+msgid ""
+"O que você deseja obter com a sua campanha? O ZigZag oferece templates pré-"
+"prontos para você alcançar os melhores resultados seja qual for seu objetivo."
+msgstr ""
+
+#: ../modules/home/views/scripts/usuarios/edit.php:9
+msgid "Editar contato"
+msgstr ""
+
+#: ../modules/home/views/scripts/usuarios/edit.php:29
+msgid "Ativo"
+msgstr ""
+
+#: ../modules/home/views/scripts/usuarios/edit.php:30
+msgid "Inativo"
+msgstr ""
+
+#: ../modules/home/views/scripts/usuarios/index.php:9
+msgid "Relatórios Aberturas"
+msgstr ""
+
+#: ../modules/home/views/scripts/usuarios/index.php:19
+msgid "Login"
+msgstr ""
+
+#: ../modules/home/views/scripts/usuarios/index.php:20
+msgid "Status"
+msgstr ""
+
+#: ../modules/home/views/scripts/usuarios/index.php:21
+msgid "Data de criação"
+msgstr ""
+
+#~ msgid "Example"
+#~ msgstr "teste"
